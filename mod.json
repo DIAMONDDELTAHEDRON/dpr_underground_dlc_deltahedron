@@ -1,0 +1,43 @@
+{
+    "id": "dpr_underground_dlc",
+    "name": "Into The Underground",
+    "subtitle": "Explore Mt. Ebott in this DLC based on UNDERTALE! This DLC includes:\n* Locations from the OG game, plus some new ones!\n* New enemies to fight or spare!\n* Talking flowers and annoying dogs!\n* And more...?",
+    "creator": "J.A.R.U.",
+
+    "version": "v0.0.0",
+    "engineVer": "v0.9.0-dev",
+
+    "chapter": 2,
+
+    "map": "ruins/firstroom",
+
+    "party": ["kris", "susie", "noelle"],
+
+    "hardReset": false,
+
+    "hidden": false,
+
+    "setWindowTitleAndIcon": null,
+
+    "dlc": {
+        "extraBinCodes": {
+            "UNDRGRND": true
+        },
+        "worldMap": {},
+        "bosses": {}
+    },
+
+    "config": {
+        "kristal": {
+          "lightCurrency": "Gold",
+          "lightCurrencyShort": "G"
+        },
+        "magical-glass": {
+            "default_battle_system": ["undertale", true],
+            "shared_light_exp": true,
+            "light_battle_tp": true,
+            "always_show_magic": true,
+            "gauge_style": "undertale"
+        }
+    }
+}

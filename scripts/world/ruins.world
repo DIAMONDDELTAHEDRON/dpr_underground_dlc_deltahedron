@@ -1,0 +1,20 @@
+{
+    "maps": [
+        {
+            "fileName": "maps/ruins/firstroom.tmx",
+            "height": 520,
+            "width": 1360,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "maps/ruins/floweyroom.tmx",
+            "height": 840,
+            "width": 640,
+            "x": 920,
+            "y": -880
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
