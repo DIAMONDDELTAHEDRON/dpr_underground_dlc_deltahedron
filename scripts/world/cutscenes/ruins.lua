@@ -9,7 +9,7 @@ local ruins = {
         flowey:setAnimation("rise")
         cutscene:wait(1)
         Game.world.music:play("flowey", 1, 1)
-        cutscene:textTagged("* Howdy![wait:10]\n* I'm [color:yellow]FLOWEY[color:reset]![wait:10]\n* [color:yellow]FLOWEY[color:reset] the [color:yellow]FLOWER[color:reset]!", "nice" "flowey")
+        cutscene:textTagged("* Howdy![wait:10]\n* I'm [color:yellow]FLOWEY[color:reset]![wait:10]\n* [color:yellow]FLOWEY[color:reset] the [color:yellow]FLOWER[color:reset]!", "nice", "flowey")
     end
 }
 return ruins
