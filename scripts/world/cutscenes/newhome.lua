@@ -54,7 +54,7 @@ local newhome = {
 
         local pain_and_suffering = Music("icecream")
 		pain_and_suffering:play()
-		pain_and_suffering:setLooping(false)
+		pain_and_suffering.source:setLooping(false)
 
         local sansEatCount = 0
 
