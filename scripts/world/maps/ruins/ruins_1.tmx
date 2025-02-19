@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="16" height="26" tilewidth="40" tileheight="40" infinite="0" nextlayerid="9" nextobjectid="34">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="26" tilewidth="40" tileheight="40" infinite="0" nextlayerid="9" nextobjectid="34">
  <editorsettings>
   <export target="ruins_1.lua" format="lua"/>
  </editorsettings>
  <properties>
   <property name="light" type="bool" value="true"/>
   <property name="music" value="ruins"/>
+  <property name="name" value="Ruins - Entrance"/>
  </properties>
  <tileset firstgid="1" source="../../tilesets/ruins_placeholder_2.tsx"/>
  <tileset firstgid="129" source="../../tilesets/ruins_final.tsx"/>
