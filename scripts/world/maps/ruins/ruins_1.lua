@@ -1,7 +1,7 @@
 return {
-  version = "1.9",
+  version = "1.11",
   luaversion = "5.1",
-  tiledversion = "1.9.0",
+  tiledversion = "1.11.2",
   class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
@@ -13,7 +13,8 @@ return {
   nextobjectid = 34,
   properties = {
     ["light"] = true,
-    ["music"] = "ruins"
+    ["music"] = "ruins",
+    ["name"] = "Ruins - Entrance"
   },
   tilesets = {
     {
@@ -253,7 +254,7 @@ return {
         {
           id = 1,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 80,
           y = 480,
@@ -266,7 +267,7 @@ return {
         {
           id = 2,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 520,
           y = 480,
@@ -279,7 +280,7 @@ return {
         {
           id = 3,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 400,
           y = 920,
@@ -292,7 +293,7 @@ return {
         {
           id = 4,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 360,
           y = 960,
@@ -305,7 +306,7 @@ return {
         {
           id = 5,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 240,
           y = 960,
@@ -318,7 +319,7 @@ return {
         {
           id = 6,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 160,
           y = 920,
@@ -331,7 +332,7 @@ return {
         {
           id = 7,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 80,
           y = 120,
@@ -344,7 +345,7 @@ return {
         {
           id = 8,
           name = "",
-          class = "",
+          type = "",
           shape = "polygon",
           x = 80,
           y = 320,
@@ -362,7 +363,7 @@ return {
         {
           id = 9,
           name = "",
-          class = "",
+          type = "",
           shape = "polygon",
           x = 560,
           y = 320,
@@ -380,7 +381,7 @@ return {
         {
           id = 11,
           name = "",
-          class = "",
+          type = "",
           shape = "polygon",
           x = 120,
           y = 920,
@@ -398,7 +399,7 @@ return {
         {
           id = 12,
           name = "",
-          class = "",
+          type = "",
           shape = "polygon",
           x = 520,
           y = 920,
@@ -416,7 +417,7 @@ return {
         {
           id = 13,
           name = "",
-          class = "",
+          type = "",
           shape = "polygon",
           x = 120,
           y = 480,
@@ -434,7 +435,7 @@ return {
         {
           id = 14,
           name = "",
-          class = "",
+          type = "",
           shape = "polygon",
           x = 520,
           y = 480,
@@ -452,7 +453,7 @@ return {
         {
           id = 15,
           name = "",
-          class = "",
+          type = "",
           shape = "polygon",
           x = 560,
           y = 440,
@@ -470,7 +471,7 @@ return {
         {
           id = 16,
           name = "",
-          class = "",
+          type = "",
           shape = "polygon",
           x = 80,
           y = 440,
@@ -488,7 +489,7 @@ return {
         {
           id = 17,
           name = "",
-          class = "",
+          type = "",
           shape = "polygon",
           x = 240,
           y = 440,
@@ -506,7 +507,7 @@ return {
         {
           id = 18,
           name = "",
-          class = "",
+          type = "",
           shape = "polygon",
           x = 400,
           y = 440,
@@ -524,7 +525,7 @@ return {
         {
           id = 20,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 200,
           y = 320,
@@ -537,7 +538,7 @@ return {
         {
           id = 21,
           name = "",
-          class = "",
+          type = "",
           shape = "polygon",
           x = 200,
           y = 360,
@@ -555,7 +556,7 @@ return {
         {
           id = 22,
           name = "",
-          class = "",
+          type = "",
           shape = "polygon",
           x = 440,
           y = 360,
@@ -573,7 +574,7 @@ return {
         {
           id = 23,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 40,
           y = 120,
@@ -586,7 +587,7 @@ return {
         {
           id = 24,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 560,
           y = 120,
@@ -599,7 +600,7 @@ return {
         {
           id = 26,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 360,
           y = 120,
@@ -628,7 +629,7 @@ return {
         {
           id = 28,
           name = "savepoint",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 320,
           y = 445,
@@ -641,7 +642,7 @@ return {
         {
           id = 29,
           name = "transition",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 280,
           y = 1040,
@@ -657,7 +658,7 @@ return {
         {
           id = 31,
           name = "transition",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 280,
           y = 240,
@@ -686,7 +687,7 @@ return {
         {
           id = 25,
           name = "spawn",
-          class = "",
+          type = "",
           shape = "point",
           x = 320,
           y = 500,
@@ -699,7 +700,7 @@ return {
         {
           id = 32,
           name = "south",
-          class = "",
+          type = "",
           shape = "point",
           x = 320,
           y = 1000,
@@ -712,7 +713,7 @@ return {
         {
           id = 33,
           name = "north",
-          class = "",
+          type = "",
           shape = "point",
           x = 320,
           y = 320,
