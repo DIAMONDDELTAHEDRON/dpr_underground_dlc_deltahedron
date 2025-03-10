@@ -32,11 +32,13 @@ function actor:init()
 
     self.animations = {
         ["rise"] = {"rise", 0.1, false, {after = "down"}},
+        ["sink"] = {"sink", 0.1, false, {after = "prerise"}},
     }
 
     self.offsets = {
         ["prerise"] = {0, 0},
         ["rise"] = {0, 0},
+        ["sink"] = {0, 0},
     }
 end
 
