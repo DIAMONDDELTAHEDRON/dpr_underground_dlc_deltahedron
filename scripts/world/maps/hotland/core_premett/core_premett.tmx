@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="8" nextobjectid="45">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="9" nextobjectid="45">
  <editorsettings>
   <export target="data.lua" format="lua"/>
  </editorsettings>
@@ -12,6 +12,22 @@
  <tileset firstgid="361" source="../../../tilesets/core_erase.tsx"/>
  <tileset firstgid="471" source="../../../tilesets/corestuff.tsx"/>
  <objectgroup id="7" name="objects_bg"/>
+ <layer id="8" name="Tile Layer 3" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,56,0,0,0,0,0,0,0,0,0,0,56,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,56,0,0,0,0,0,0,0,0,0,0,56,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
  <layer id="1" name="Tile Layer 1" width="16" height="12">
   <data encoding="csv">
 430,430,432,19,20,20,20,20,20,20,20,20,20,20,20,20,
