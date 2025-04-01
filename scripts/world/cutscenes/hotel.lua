@@ -1,5 +1,5 @@
 ---@type table<string,fun(cutscene:WorldCutscene, event?: Event|NPC)>
-local ruins = {
+local hotel = {
     -- The inclusion of the below line tells the language server that the first parameter of the cutscene is `WorldCutscene`.
     -- This allows it to fetch us useful documentation that shows all of the available cutscene functions while writing our cutscenes!
 
@@ -35,4 +35,4 @@ local ruins = {
         end
     end
 }
-return ruins
+return hotel
