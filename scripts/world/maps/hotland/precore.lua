@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 8,
-  nextobjectid = 28,
+  nextobjectid = 29,
   properties = {
     ["light"] = true,
     ["music"] = "coretransition"
@@ -112,6 +112,22 @@ return {
           properties = {
             ["map"] = "hotland/core1",
             ["marker"] = "south"
+          }
+        },
+        {
+          id = 28,
+          name = "transition",
+          type = "",
+          shape = "rectangle",
+          x = 280,
+          y = 1100,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["map"] = "hotland/hotellobby",
+            ["marker"] = "north"
           }
         }
       }
@@ -455,7 +471,7 @@ return {
           type = "",
           shape = "point",
           x = 320,
-          y = 1050,
+          y = 1060,
           width = 0,
           height = 0,
           rotation = 0,
