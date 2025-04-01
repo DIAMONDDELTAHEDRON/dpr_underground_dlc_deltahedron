@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="28" tilewidth="40" tileheight="40" infinite="0" nextlayerid="8" nextobjectid="28">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="28" tilewidth="40" tileheight="40" infinite="0" nextlayerid="8" nextobjectid="29">
  <editorsettings>
   <export target="precore.lua" format="lua"/>
  </editorsettings>
@@ -19,6 +19,12 @@
    <properties>
     <property name="map" value="hotland/core1"/>
     <property name="marker" value="south"/>
+   </properties>
+  </object>
+  <object id="28" name="transition" x="280" y="1100" width="80" height="40">
+   <properties>
+    <property name="map" value="hotland/hotellobby"/>
+    <property name="marker" value="north"/>
    </properties>
   </object>
  </objectgroup>
@@ -53,7 +59,7 @@
   <object id="26" name="north" x="320" y="230">
    <point/>
   </object>
-  <object id="27" name="south" x="320" y="1050">
+  <object id="27" name="south" x="320" y="1060">
    <point/>
   </object>
  </objectgroup>
