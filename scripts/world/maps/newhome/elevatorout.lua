@@ -12,6 +12,7 @@ return {
   nextlayerid = 5,
   nextobjectid = 15,
   properties = {
+    ["border"] = "undertale/castle",
     ["light"] = true,
     ["name"] = "Castle Elevator"
   },

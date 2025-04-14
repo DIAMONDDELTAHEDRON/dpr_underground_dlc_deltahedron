@@ -12,6 +12,7 @@ return {
   nextlayerid = 6,
   nextobjectid = 38,
   properties = {
+    ["border"] = "undertale/fire",
     ["light"] = true,
     ["music"] = "hotel",
     ["name"] = "Hotland - Hotel Lobby"

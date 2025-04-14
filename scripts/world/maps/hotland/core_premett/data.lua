@@ -12,6 +12,7 @@ return {
   nextlayerid = 9,
   nextobjectid = 47,
   properties = {
+    ["border"] = "undertale/fire",
     ["light"] = true,
     ["music"] = "core",
     ["name"] = "Hotland - Core End"
