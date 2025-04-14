@@ -23,7 +23,7 @@ return {
   },
   properties = {},
   wangsets = {},
-  tilecount = 70,
+  tilecount = 82,
   tiles = {
     {
       id = 0,
@@ -748,6 +748,130 @@ return {
       image = "../../../assets/sprites/world/maps/hotland/core/wallstrip_r_6.png",
       width = 20,
       height = 6
+    },
+    {
+      id = 70,
+      image = "../../../assets/sprites/world/maps/hotland/core/darknesstotem_1.png",
+      width = 20,
+      height = 60,
+      animation = {
+        {
+          tileid = 70,
+          duration = 266
+        },
+        {
+          tileid = 71,
+          duration = 266
+        },
+        {
+          tileid = 72,
+          duration = 266
+        },
+        {
+          tileid = 73,
+          duration = 266
+        },
+        {
+          tileid = 74,
+          duration = 266
+        },
+        {
+          tileid = 75,
+          duration = 266
+        }
+      }
+    },
+    {
+      id = 71,
+      image = "../../../assets/sprites/world/maps/hotland/core/darknesstotem_2.png",
+      width = 20,
+      height = 60
+    },
+    {
+      id = 72,
+      image = "../../../assets/sprites/world/maps/hotland/core/darknesstotem_3.png",
+      width = 20,
+      height = 60
+    },
+    {
+      id = 73,
+      image = "../../../assets/sprites/world/maps/hotland/core/darknesstotem_4.png",
+      width = 20,
+      height = 60
+    },
+    {
+      id = 74,
+      image = "../../../assets/sprites/world/maps/hotland/core/darknesstotem_5.png",
+      width = 20,
+      height = 60
+    },
+    {
+      id = 75,
+      image = "../../../assets/sprites/world/maps/hotland/core/darknesstotem_6.png",
+      width = 20,
+      height = 60
+    },
+    {
+      id = 76,
+      image = "../../../assets/sprites/world/maps/hotland/core/glowtotem_1.png",
+      width = 20,
+      height = 60,
+      animation = {
+        {
+          tileid = 76,
+          duration = 166
+        },
+        {
+          tileid = 77,
+          duration = 166
+        },
+        {
+          tileid = 78,
+          duration = 166
+        },
+        {
+          tileid = 79,
+          duration = 166
+        },
+        {
+          tileid = 80,
+          duration = 166
+        },
+        {
+          tileid = 81,
+          duration = 166
+        }
+      }
+    },
+    {
+      id = 77,
+      image = "../../../assets/sprites/world/maps/hotland/core/glowtotem_2.png",
+      width = 20,
+      height = 60
+    },
+    {
+      id = 78,
+      image = "../../../assets/sprites/world/maps/hotland/core/glowtotem_3.png",
+      width = 20,
+      height = 60
+    },
+    {
+      id = 79,
+      image = "../../../assets/sprites/world/maps/hotland/core/glowtotem_4.png",
+      width = 20,
+      height = 60
+    },
+    {
+      id = 80,
+      image = "../../../assets/sprites/world/maps/hotland/core/glowtotem_5.png",
+      width = 20,
+      height = 60
+    },
+    {
+      id = 81,
+      image = "../../../assets/sprites/world/maps/hotland/core/glowtotem_6.png",
+      width = 20,
+      height = 60
     }
   }
 }

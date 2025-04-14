@@ -37,16 +37,16 @@ function ElevatorDoor:init(data)
     self.sprite_door_right:setScale(2)
     self.sprite_frame:setScale(2)
 
-    self.sprite_frame.x = 15
-    self.sprite_frame.y = -65
+    self.sprite_frame.x = 12
+    self.sprite_frame.y = -70
     
-    self.sprite_door_left.x = 23
-    self.sprite_door_left.y = -55
-    self.sprite_door_right.x = 63
-    self.sprite_door_right.y = -55
+    self.sprite_door_left.x = 20
+    self.sprite_door_left.y = -60
+    self.sprite_door_right.x = 60
+    self.sprite_door_right.y = -60
     
-    self.sprite_inside.x = 15
-    self.sprite_inside.y = -65
+    self.sprite_inside.x = 12
+    self.sprite_inside.y = -70
 
 
 end
@@ -62,21 +62,21 @@ end
 
 function ElevatorDoor:open()
     Assets.playSound("elecdoor_open")
-    self.sprite_door_left:slideTo(-20, self.sprite_door_left.y, 0.3)
-    self.sprite_door_right:slideTo(106, self.sprite_door_right.y, 0.3)
+    self.sprite_door_left:slideTo(-23, self.sprite_door_left.y, 0.3)
+    self.sprite_door_right:slideTo(103, self.sprite_door_right.y, 0.3)
 end
 
 function ElevatorDoor:close()
     Assets.playSound("elecdoor_close")
-    self.sprite_door_left:slideTo(23, self.sprite_door_left.y, 0.3)
-    self.sprite_door_right:slideTo(61, self.sprite_door_right.y, 0.3)
+    self.sprite_door_left:slideTo(20, self.sprite_door_left.y, 0.3)
+    self.sprite_door_right:slideTo(60, self.sprite_door_right.y, 0.3)
 end
 
 function ElevatorDoor:draw()
     Draw.scissor(self.sprite_frame.x, self.sprite_frame.y, self.sprite_frame.width*2-32, self.sprite_frame.height*2)
     super.draw(self)
     love.graphics.setScissor()
-    love.graphics.draw(Assets.getTexture("world/events/elevatordoor/"..self.type.."/frame"), 15, -65, 0, 2, 2)
+    love.graphics.draw(Assets.getTexture("world/events/elevatordoor/"..self.type.."/frame"), 12, -70, 0, 2, 2)
 end
 
 return ElevatorDoor

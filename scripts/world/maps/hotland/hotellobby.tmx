@@ -116,7 +116,7 @@
   <object id="30" gid="86" x="632" y="1036" width="42" height="104"/>
   <object id="31" gid="86" x="124" y="1036" width="42" height="104"/>
   <object id="32" gid="86" x="120" y="548" width="42" height="104"/>
-  <object id="36" name="elevatordoorhotel" x="697" y="479" width="120" height="40"/>
+  <object id="36" name="elevatordoorhotel" x="700" y="484" width="120" height="40"/>
  </objectgroup>
  <objectgroup color="#7f00ff" id="5" name="markers">
   <object id="19" name="spawn" x="400" y="980">

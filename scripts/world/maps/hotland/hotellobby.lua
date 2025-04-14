@@ -20,8 +20,7 @@ return {
     {
       name = "hoteltile",
       firstgid = 1,
-      filename = "../../tilesets/hoteltile.tsx",
-      exportfilename = "../../tilesets/hoteltile.lua"
+      filename = "../../tilesets/hoteltile.tsx"
     },
     {
       name = "hotel_objects",
@@ -576,8 +575,8 @@ return {
           name = "elevatordoorhotel",
           type = "",
           shape = "rectangle",
-          x = 697,
-          y = 479,
+          x = 700,
+          y = 484,
           width = 120,
           height = 40,
           rotation = 0,

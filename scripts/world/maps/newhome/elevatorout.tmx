@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="26" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="15">
+ <editorsettings>
+  <export target="elevatorout.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" type="bool" value="true"/>
+  <property name="name" value="Castle Elevator"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/ruins_tint.tsx"/>
+ <tileset firstgid="129" source="../../tilesets/greyruinsplaceholder.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="26" height="12">
+  <data encoding="csv">
+15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,16,145,17,17,145,14,15,15,15,15,15,
+15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,16,145,17,17,145,14,15,15,15,15,15,
+15,30,23,23,23,23,23,23,23,23,23,23,23,23,23,24,145,17,17,145,22,23,23,31,15,15,
+15,16,2,3,3,3,4,3,3,3,3,3,3,3,3,5,145,17,17,145,2,3,3,14,15,15,
+15,16,2,3,3,3,4,3,3,3,3,3,3,3,3,5,145,17,17,145,2,3,3,14,15,15,
+15,16,2,3,0,0,4,3,3,3,3,3,3,3,3,5,145,17,17,145,2,3,3,14,15,15,
+15,16,10,11,0,0,11,11,11,11,11,11,11,11,11,13,145,17,17,145,10,11,11,14,15,15,
+15,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,145,32,32,32,14,15,15,
+15,16,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,50,145,32,32,32,14,15,15,
+15,38,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,39,15,15,
+15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,
+15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15,15
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="2" name="collision">
+  <object id="1" x="40" y="360" width="920" height="40"/>
+  <object id="2" x="920" y="280" width="40" height="80"/>
+  <object id="3" x="800" y="240" width="160" height="40"/>
+  <object id="4" x="800" y="0" width="40" height="240"/>
+  <object id="5" x="600" y="0" width="40" height="240"/>
+  <object id="6" x="240" y="240" width="400" height="40"/>
+  <object id="7" x="40" y="240" width="120" height="40"/>
+  <object id="8" x="40" y="280" width="40" height="80"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="3" name="objects">
+  <object id="9" name="transition" x="160" y="230" width="80" height="40">
+   <properties>
+    <property name="map" value="hotland/finalelevator"/>
+    <property name="marker" value="south"/>
+   </properties>
+  </object>
+  <object id="10" name="transition" x="160" y="230" width="80" height="40">
+   <properties>
+    <property name="map" value="hotland/finalelevator"/>
+    <property name="marker" value="south"/>
+   </properties>
+  </object>
+  <object id="11" name="savepoint" x="860" y="319"/>
+  <object id="14" name="elevatordoor" x="140" y="240" width="120" height="40"/>
+ </objectgroup>
+ <objectgroup color="#7f00ff" id="4" name="markers">
+  <object id="12" name="elevator" x="200" y="320">
+   <point/>
+  </object>
+  <object id="13" name="spawn" x="820" y="340">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

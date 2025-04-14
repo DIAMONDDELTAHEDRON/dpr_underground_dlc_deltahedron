@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="9" nextobjectid="45">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="9" nextobjectid="47">
  <editorsettings>
   <export target="data.lua" format="lua"/>
  </editorsettings>
@@ -88,7 +88,7 @@
   <object id="5" x="600" y="200" width="40" height="80"/>
  </objectgroup>
  <objectgroup color="#ff00ff" id="5" name="objects_party">
-  <object id="28" name="elevatordoor" x="417" y="155" width="120" height="40"/>
+  <object id="28" name="elevatordoor" x="420" y="160" width="120" height="40"/>
   <object id="31" name="transition" x="440" y="150" width="80" height="40">
    <properties>
     <property name="facing" value="down"/>
@@ -97,12 +97,21 @@
    </properties>
   </object>
   <object id="44" name="savepoint" x="570" y="231"/>
+  <object id="45" name="transition" x="280" y="150" width="80" height="40">
+   <properties>
+    <property name="map" value="hotland/core_metttest"/>
+    <property name="marker" value="south"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup color="#7f00ff" id="6" name="markers">
   <object id="29" name="spawn" x="300" y="260">
    <point/>
   </object>
   <object id="30" name="elevator" x="480" y="230">
+   <point/>
+  </object>
+  <object id="46" name="doorway" x="320" y="230">
    <point/>
   </object>
  </objectgroup>

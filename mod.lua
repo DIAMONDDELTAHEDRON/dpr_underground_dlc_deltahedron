@@ -18,4 +18,5 @@ function Mod:setMusicPitches()
     MUSIC_PITCHES["mysteriousroom2"] = 0.5
     MUSIC_PITCHES["waterquiet"] = 0.9
     MUSIC_PITCHES["core"] = 0.97
+    MUSIC_PITCHES["drone"] = 0.5
 end
