@@ -12,6 +12,7 @@ return {
   nextlayerid = 5,
   nextobjectid = 25,
   properties = {
+    ["border"] = "simple",
     ["light"] = true,
     ["music"] = "drone"
   },
@@ -19,8 +20,7 @@ return {
     {
       name = "m_darktiles",
       firstgid = 1,
-      filename = "../../tilesets/m_darktiles.tsx",
-      exportfilename = "../../tilesets/m_darktiles.lua"
+      filename = "../../tilesets/m_darktiles.tsx"
     },
     {
       name = "core",

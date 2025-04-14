@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.11" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="34" height="13" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="19">
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="34" height="13" tilewidth="40" tileheight="40" infinite="0" nextlayerid="6" nextobjectid="19">
  <properties>
+  <property name="border" value="simple"/>
   <property name="light" type="bool" value="true"/>
  </properties>
  <layer id="1" name="Tile Layer 1" width="34" height="13">

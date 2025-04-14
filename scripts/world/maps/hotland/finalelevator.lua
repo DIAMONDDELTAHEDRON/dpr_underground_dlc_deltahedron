@@ -12,6 +12,7 @@ return {
   nextlayerid = 6,
   nextobjectid = 13,
   properties = {
+    ["border"] = "simple",
     ["light"] = true
   },
   tilesets = {

@@ -12,6 +12,7 @@ return {
   nextlayerid = 8,
   nextobjectid = 29,
   properties = {
+    ["border"] = "undertale/fire",
     ["light"] = true,
     ["music"] = "coretransition"
   },
