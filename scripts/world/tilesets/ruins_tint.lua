@@ -1,7 +1,7 @@
 return {
-  version = "1.9",
+  version = "1.11",
   luaversion = "5.1",
-  tiledversion = "1.9.0",
+  tiledversion = "1.11.2",
   name = "ruins_tint",
   class = "",
   tilewidth = 20,
@@ -13,7 +13,7 @@ return {
   imagewidth = 160,
   imageheight = 320,
   objectalignment = "unspecified",
-  tilerendersize = "tile",
+  tilerendersize = "grid",
   fillmode = "stretch",
   tileoffset = {
     x = 0,

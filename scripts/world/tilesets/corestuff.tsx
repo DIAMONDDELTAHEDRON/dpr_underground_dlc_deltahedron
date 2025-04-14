@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.11" tiledversion="1.11.2" name="corestuff" tilewidth="80" tileheight="80" tilecount="70" columns="0">
+<tileset version="1.11" tiledversion="1.11.2" name="corestuff" tilewidth="80" tileheight="80" tilecount="82" columns="0">
  <editorsettings>
   <export target="corestuff.lua" format="lua"/>
  </editorsettings>
@@ -307,5 +307,57 @@
  </tile>
  <tile id="69">
   <image source="../../../assets/sprites/world/maps/hotland/core/wallstrip_r_6.png" width="20" height="6"/>
+ </tile>
+ <tile id="70">
+  <image source="../../../assets/sprites/world/maps/hotland/core/darknesstotem_1.png" width="20" height="60"/>
+  <animation>
+   <frame tileid="70" duration="266"/>
+   <frame tileid="71" duration="266"/>
+   <frame tileid="72" duration="266"/>
+   <frame tileid="73" duration="266"/>
+   <frame tileid="74" duration="266"/>
+   <frame tileid="75" duration="266"/>
+  </animation>
+ </tile>
+ <tile id="71">
+  <image source="../../../assets/sprites/world/maps/hotland/core/darknesstotem_2.png" width="20" height="60"/>
+ </tile>
+ <tile id="72">
+  <image source="../../../assets/sprites/world/maps/hotland/core/darknesstotem_3.png" width="20" height="60"/>
+ </tile>
+ <tile id="73">
+  <image source="../../../assets/sprites/world/maps/hotland/core/darknesstotem_4.png" width="20" height="60"/>
+ </tile>
+ <tile id="74">
+  <image source="../../../assets/sprites/world/maps/hotland/core/darknesstotem_5.png" width="20" height="60"/>
+ </tile>
+ <tile id="75">
+  <image source="../../../assets/sprites/world/maps/hotland/core/darknesstotem_6.png" width="20" height="60"/>
+ </tile>
+ <tile id="76">
+  <image source="../../../assets/sprites/world/maps/hotland/core/glowtotem_1.png" width="20" height="60"/>
+  <animation>
+   <frame tileid="76" duration="166"/>
+   <frame tileid="77" duration="166"/>
+   <frame tileid="78" duration="166"/>
+   <frame tileid="79" duration="166"/>
+   <frame tileid="80" duration="166"/>
+   <frame tileid="81" duration="166"/>
+  </animation>
+ </tile>
+ <tile id="77">
+  <image source="../../../assets/sprites/world/maps/hotland/core/glowtotem_2.png" width="20" height="60"/>
+ </tile>
+ <tile id="78">
+  <image source="../../../assets/sprites/world/maps/hotland/core/glowtotem_3.png" width="20" height="60"/>
+ </tile>
+ <tile id="79">
+  <image source="../../../assets/sprites/world/maps/hotland/core/glowtotem_4.png" width="20" height="60"/>
+ </tile>
+ <tile id="80">
+  <image source="../../../assets/sprites/world/maps/hotland/core/glowtotem_5.png" width="20" height="60"/>
+ </tile>
+ <tile id="81">
+  <image source="../../../assets/sprites/world/maps/hotland/core/glowtotem_6.png" width="20" height="60"/>
  </tile>
 </tileset>

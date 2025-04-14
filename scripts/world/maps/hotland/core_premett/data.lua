@@ -10,7 +10,7 @@ return {
   tilewidth = 40,
   tileheight = 40,
   nextlayerid = 9,
-  nextobjectid = 45,
+  nextobjectid = 47,
   properties = {
     ["light"] = true,
     ["music"] = "core",
@@ -708,8 +708,8 @@ return {
           name = "elevatordoor",
           type = "",
           shape = "rectangle",
-          x = 417,
-          y = 155,
+          x = 420,
+          y = 160,
           width = 120,
           height = 40,
           rotation = 0,
@@ -745,6 +745,22 @@ return {
           rotation = 0,
           visible = true,
           properties = {}
+        },
+        {
+          id = 45,
+          name = "transition",
+          type = "",
+          shape = "rectangle",
+          x = 280,
+          y = 150,
+          width = 80,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["map"] = "hotland/core_metttest",
+            ["marker"] = "south"
+          }
         }
       }
     },
@@ -781,6 +797,19 @@ return {
           type = "",
           shape = "point",
           x = 480,
+          y = 230,
+          width = 0,
+          height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 46,
+          name = "doorway",
+          type = "",
+          shape = "point",
+          x = 320,
           y = 230,
           width = 0,
           height = 0,

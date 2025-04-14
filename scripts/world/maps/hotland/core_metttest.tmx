@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="28" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="25">
+ <editorsettings>
+  <export target="core_metttest.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" type="bool" value="true"/>
+  <property name="music" value="drone"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/m_darktiles.tsx"/>
+ <tileset firstgid="66" source="../../tilesets/core.tsx"/>
+ <tileset firstgid="426" source="../../tilesets/tempfiretile.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="16" height="28">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,66,67,67,68,0,0,0,0,0,0,
+0,0,0,0,0,0,102,103,103,104,0,0,0,0,0,0,
+0,0,0,0,0,0,120,66,68,122,0,0,0,0,0,0,
+0,0,0,0,0,0,120,84,86,122,0,0,0,0,0,0,
+0,0,0,0,0,0,120,84,86,122,0,0,0,0,0,0,
+0,0,0,0,0,0,120,84,86,122,0,0,0,0,0,0,
+0,0,0,0,0,0,0,6,8,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,6,8,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,6,8,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,6,8,0,0,0,0,0,0,0,
+0,0,0,0,0,1,2,15,14,2,3,0,0,0,0,0,
+0,0,0,0,1,15,7,7,7,7,14,3,0,0,0,0,
+0,0,0,1,15,7,7,7,7,7,7,14,3,0,0,0,
+0,0,0,6,7,7,7,7,7,7,7,7,8,0,0,0,
+0,0,0,11,10,7,7,7,7,7,7,9,13,0,0,0,
+428,428,428,428,11,10,7,7,7,7,9,13,428,428,428,428,
+428,428,428,428,428,11,10,7,7,9,13,428,428,428,428,428,
+428,428,428,428,428,428,11,10,9,13,428,428,428,428,428,428,
+428,428,428,428,428,428,428,6,8,428,428,428,428,428,428,428,
+428,428,428,428,428,428,428,6,8,428,428,428,428,428,428,428,
+428,428,428,428,428,428,428,6,8,428,428,428,428,428,428,428,
+428,428,428,428,428,428,428,6,8,428,428,428,428,428,428,428,
+428,428,428,428,428,428,428,6,8,428,428,428,428,428,428,428,
+428,428,428,428,428,428,428,6,8,428,428,428,428,428,428,428,
+428,428,428,428,428,428,428,6,8,428,428,428,428,428,428,428,
+428,428,428,428,428,428,428,6,8,428,428,428,428,428,428,428
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="2" name="collision">
+  <object id="1" x="360" y="800" width="40" height="320"/>
+  <object id="2" x="240" y="800" width="40" height="320"/>
+  <object id="3" x="200" y="760" width="40" height="40"/>
+  <object id="4" x="160" y="720" width="40" height="40"/>
+  <object id="5" x="120" y="680" width="40" height="40"/>
+  <object id="6" x="80" y="560" width="40" height="120"/>
+  <object id="7" x="520" y="560" width="40" height="120"/>
+  <object id="8" x="480" y="680" width="40" height="40"/>
+  <object id="9" x="440" y="720" width="40" height="40"/>
+  <object id="10" x="400" y="760" width="40" height="40"/>
+  <object id="11" x="480" y="520" width="40" height="40"/>
+  <object id="12" x="440" y="480" width="40" height="40"/>
+  <object id="13" x="360" y="440" width="80" height="40"/>
+  <object id="14" x="200" y="440" width="80" height="40"/>
+  <object id="15" x="160" y="480" width="40" height="40"/>
+  <object id="16" x="120" y="520" width="40" height="40"/>
+  <object id="17" x="240" y="280" width="40" height="160"/>
+  <object id="18" x="360" y="280" width="40" height="160"/>
+  <object id="19" x="240" y="240" width="160" height="40"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="3" name="objects">
+  <object id="20" name="transition" x="280" y="1080" width="80" height="40">
+   <properties>
+    <property name="map" value="hotland/core_premett"/>
+    <property name="marker" value="doorway"/>
+   </properties>
+  </object>
+  <object id="21" name="transition" x="280" y="280" width="80" height="40">
+   <properties>
+    <property name="map" value="hotland/core_final"/>
+    <property name="marker" value="south"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#7f00ff" id="4" name="markers">
+  <object id="22" name="spawn" x="320" y="980">
+   <point/>
+  </object>
+  <object id="23" name="south" x="320" y="1040">
+   <point/>
+  </object>
+  <object id="24" name="north" x="320" y="360">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
