@@ -3,7 +3,7 @@
 local FakeFalls, super = Class(Event)
 
 function FakeFalls:init(data)
-    super.init(self, data.x, data.y, data.w, data.h)
+    super.init(self, data)
 
 	local properties = data.properties or {}
 
