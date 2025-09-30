@@ -26,8 +26,8 @@ function HotlandCog:draw()
 		Draw.setColor(COLORS["maroon"])
 		local xpos, ypos
 		for i = 0, 6 do
-			xpos = (0.3 * self.cog_scale) + (-math.cos(math.rad((i / 6) * 360 + self.siner*2)) * 16) * self.cog_scale
-			ypos = (0.3 * self.cog_scale) + (-math.sin(math.rad((i / 6) * 360 + self.siner*2)) * 16) * self.cog_scale
+			xpos = (0.6 * self.cog_scale) + (-math.cos(math.rad((i / 6) * 360 + self.siner*2)) * 16) * self.cog_scale
+			ypos = (0.6 * self.cog_scale) + (-math.sin(math.rad((i / 6) * 360 + self.siner*2)) * 16) * self.cog_scale
 			love.graphics.circle("fill", xpos, ypos, self.cog_scale*4, 4)
 		end
 		Draw.setColor(COLORS["white"])
@@ -36,8 +36,8 @@ function HotlandCog:draw()
 		Draw.setColor(COLORS["maroon"])
 		local xpos, ypos
 		for i = 0, 6 do
-			xpos = (0.4 * self.cog_scale) + (-math.cos(math.rad((i / 6) * 360 + self.siner*2)) * 16) * self.cog_scale
-			ypos = (0.4 * self.cog_scale) + (-math.sin(math.rad((i / 6) * 360 + self.siner*2)) * 16) * self.cog_scale
+			xpos = (0.8 * self.cog_scale) + (-math.cos(math.rad((i / 6) * 360 + self.siner*2)) * 16) * self.cog_scale
+			ypos = (0.8 * self.cog_scale) + (-math.sin(math.rad((i / 6) * 360 + self.siner*2)) * 16) * self.cog_scale
 			love.graphics.circle("fill", xpos, ypos, self.cog_scale*4, 8)
 		end
 		Draw.setColor(COLORS["white"])
