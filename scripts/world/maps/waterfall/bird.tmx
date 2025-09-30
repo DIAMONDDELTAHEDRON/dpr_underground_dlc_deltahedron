@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="5" nextobjectid="13">
+ <editorsettings>
+  <export target="bird.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" type="bool" value="true"/>
+  <property name="music" value="waterquiet"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/water_2.tsx"/>
+ <tileset firstgid="361" source="../../tilesets/water.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="16" height="12">
+  <data encoding="csv">
+256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,256,
+274,274,274,274,274,274,274,274,274,274,274,274,274,274,274,274,
+164,164,164,164,164,164,164,164,164,164,164,164,164,164,164,164,
+182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,
+200,200,200,200,200,200,200,182,182,182,200,200,200,200,200,200,
+127,127,127,127,127,127,127,182,182,182,376,376,376,376,376,376,
+127,127,127,127,127,127,127,182,182,182,376,519,376,376,519,376,
+127,127,127,127,127,127,127,182,182,182,376,376,376,376,376,376,
+164,164,164,164,164,164,164,182,182,182,164,164,164,164,164,164,
+182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,182,
+200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,
+0,203,0,203,362,203,362,203,362,203,362,203,0,203,0,203
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="2" name="collision">
+  <object id="1" x="0" y="160" width="280" height="40"/>
+  <object id="2" x="280" y="200" width="40" height="120"/>
+  <object id="3" x="0" y="320" width="280" height="40"/>
+  <object id="4" x="360" y="200" width="40" height="120"/>
+  <object id="5" x="400" y="160" width="240" height="40"/>
+  <object id="6" x="400" y="320" width="240" height="40"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="3" name="objects">
+  <object id="7" name="transition" x="0" y="200" width="40" height="120">
+   <properties>
+    <property name="map" value=""/>
+    <property name="marker" value="right"/>
+   </properties>
+  </object>
+  <object id="8" name="transition" x="620" y="200" width="40" height="120">
+   <properties>
+    <property name="map" value="waterfall/friendlyhub"/>
+    <property name="marker" value="left"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#7f00ff" id="4" name="markers">
+  <object id="11" name="left" x="70" y="240">
+   <point/>
+  </object>
+  <object id="12" name="right" x="590" y="240">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

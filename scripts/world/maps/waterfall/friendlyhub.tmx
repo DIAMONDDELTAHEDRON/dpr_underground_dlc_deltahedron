@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="31" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="7" nextobjectid="39">
+ <editorsettings>
+  <export target="friendlyhub.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" type="bool" value="true"/>
+  <property name="music" value="waterquiet"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/water.tsx"/>
+ <tileset firstgid="225" source="../../tilesets/water_2.tsx"/>
+ <tileset firstgid="585" source="../../tilesets/water_supplement.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="31" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,115,115,115,0,0,0,0,0,115,115,115,0,0,0,0,0,115,115,115,0,0,0,0,0,0,
+0,0,0,0,0,0,115,115,115,0,0,0,0,0,115,115,115,0,0,0,0,0,115,115,115,0,0,0,0,0,0,
+115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,0,0,0,
+128,128,129,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,0,0,0,
+156,156,157,0,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,
+0,0,0,0,115,115,115,115,115,115,617,133,133,133,133,133,133,133,133,133,134,115,115,115,115,115,115,115,115,115,115,
+0,0,0,0,115,115,115,115,115,115,160,161,161,161,161,161,161,161,161,161,162,115,115,115,115,115,115,115,115,115,115,
+128,128,129,0,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,225,226,226,
+142,142,143,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,115,243,244,244,
+142,142,142,128,128,128,128,128,128,128,128,128,128,129,115,115,115,225,226,226,226,226,226,226,226,226,226,226,301,244,244,
+142,142,142,142,142,142,142,142,142,142,142,142,142,143,115,115,115,243,244,244,244,244,244,244,244,244,244,244,244,244,244,
+225,226,226,226,226,226,226,226,226,226,226,226,226,227,115,115,115,243,244,244,244,244,244,244,244,244,244,244,244,244,244
+</data>
+ </layer>
+ <layer id="6" name="Tile Layer 2" width="31" height="12">
+  <data encoding="csv">
+44,44,44,44,44,45,0,0,0,43,44,44,44,45,0,0,0,43,44,44,44,45,0,0,0,43,44,44,243,244,244,
+44,44,44,44,44,45,0,0,0,43,44,44,44,45,0,0,0,43,44,44,44,45,0,0,0,43,44,44,261,262,262,
+607,607,607,607,607,608,0,0,0,606,607,607,607,608,0,0,0,606,607,607,607,608,0,0,0,606,607,607,43,44,44,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43,44,44,
+0,0,0,16,613,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,606,607,607,
+16,159,16,159,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+159,16,159,16,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,16,622,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="2" name="collision">
+  <object id="1" x="0" y="0" width="240" height="120"/>
+  <object id="2" x="0" y="120" width="120" height="80"/>
+  <object id="3" x="0" y="280" width="120" height="40"/>
+  <object id="4" x="80" y="320" width="40" height="40"/>
+  <object id="5" x="80" y="360" width="480" height="40"/>
+  <object id="10" x="520" y="400" width="40" height="80"/>
+  <object id="11" x="680" y="400" width="40" height="80"/>
+  <object id="12" x="680" y="360" width="480" height="40"/>
+  <object id="13" x="1120" y="320" width="40" height="40"/>
+  <object id="14" x="1120" y="280" width="120" height="40"/>
+  <object id="15" x="1120" y="120" width="120" height="80"/>
+  <object id="16" x="1000" y="0" width="240" height="120"/>
+  <object id="17" x="360" y="0" width="200" height="120"/>
+  <object id="18" x="680" y="0" width="200" height="120"/>
+  <object id="19" x="400" y="200" width="440" height="80"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="3" name="objects">
+  <object id="20" name="savepoint" x="600" y="240" width="40" height="40"/>
+  <object id="21" name="transition" x="-20" y="200" width="40" height="80">
+   <properties>
+    <property name="map" value="waterfall/bird"/>
+    <property name="marker" value="right"/>
+   </properties>
+  </object>
+  <object id="22" name="transition" x="1220" y="200" width="40" height="80">
+   <properties>
+    <property name="map" value="waterfall/shop"/>
+    <property name="marker" value="left"/>
+   </properties>
+  </object>
+  <object id="23" name="transition" x="880" y="0" width="120" height="40">
+   <properties>
+    <property name="map" value=""/>
+    <property name="marker" value=""/>
+   </properties>
+  </object>
+  <object id="24" name="transition" x="560" y="0" width="120" height="40">
+   <properties>
+    <property name="map" value=""/>
+    <property name="marker" value=""/>
+   </properties>
+  </object>
+  <object id="25" name="transition" x="240" y="0" width="120" height="40">
+   <properties>
+    <property name="map" value="waterfall/undyneyard"/>
+    <property name="marker" value="down"/>
+   </properties>
+  </object>
+  <object id="26" name="transition" x="560" y="440" width="120" height="40">
+   <properties>
+    <property name="map" value=""/>
+    <property name="marker" value=""/>
+   </properties>
+  </object>
+  <object id="37" name="stable" x="780" y="160">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#7f00ff" id="5" name="markers">
+  <object id="27" name="undyne_house" x="280" y="50" width="40" height="40"/>
+  <object id="29" name="blook_house" x="600" y="50" width="40" height="40"/>
+  <object id="30" name="blook_farm" x="920" y="50" width="40" height="40"/>
+  <object id="33" name="right" x="1180" y="200" width="40" height="40"/>
+  <object id="34" name="down" x="600" y="360" width="40" height="40"/>
+  <object id="35" name="spawn" x="600" y="320" width="40" height="40"/>
+  <object id="38" name="left" x="40" y="240">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

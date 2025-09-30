@@ -1,5 +1,21 @@
 function Mod:init()
     print("Loaded "..self.info.name.."!")
+	
+    self.voice_timer = 0
+end
+
+function Mod:preUpdate(dt)
+    self.voice_timer = Utils.approach(self.voice_timer, 0, DTMULT)
+end
+
+function Mod:onTextSound(sound, node)
+    if sound == "wingding" or sound == "wingding_1" then
+        if self.voice_timer == 0 then
+            local snd = Assets.playSound(Utils.pick{"voice/wingding_1", "voice/wingding_2", "voice/wingding_3", "voice/wingding_4", "voice/wingding_5", "voice/wingding_6", "voice/wingding_7"})
+            self.voice_timer = 2
+		end
+		return true
+	end
 end
 
 function Mod:load(data, new_file)

@@ -13,7 +13,7 @@ return {
   imagewidth = 100,
   imageheight = 80,
   objectalignment = "unspecified",
-  tilerendersize = "tile",
+  tilerendersize = "grid",
   fillmode = "stretch",
   tileoffset = {
     x = 0,
