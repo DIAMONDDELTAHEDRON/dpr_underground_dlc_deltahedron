@@ -1,0 +1,23 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "scripts/world/tilesets/hotland.tsx": {
+            "dynamicWrapping": false
+        },
+        "scripts/world/tilesets/hotland_pipezone.tsx": {
+            "dynamicWrapping": false
+        },
+        "scripts/world/tilesets/hotland_stuff.tsx": {
+            "dynamicWrapping": true
+        }
+    },
+    "last.exportedFilePath": "C:/Users/ianda/AppData/Roaming/LOVE/dpr/mods/dpr_underground_dlc_deltahedron/scripts/world/maps/hotland",
+    "map.lastUsedExportFilter": "All Files (*)",
+    "openFiles": [
+    ],
+    "project": "dpr_underground.tiled-project",
+    "recentFiles": [
+    ]
+}

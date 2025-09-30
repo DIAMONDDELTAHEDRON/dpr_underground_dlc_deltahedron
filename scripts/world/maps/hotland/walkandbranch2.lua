@@ -1,7 +1,7 @@
 return {
-  version = "1.9",
+  version = "1.10",
   luaversion = "5.1",
-  tiledversion = "1.9.0",
+  tiledversion = "1.10.2",
   class = "",
   orientation = "orthogonal",
   renderorder = "right-down",
@@ -9,8 +9,8 @@ return {
   height = 33,
   tilewidth = 40,
   tileheight = 40,
-  nextlayerid = 10,
-  nextobjectid = 128,
+  nextlayerid = 11,
+  nextobjectid = 141,
   properties = {
     ["border"] = "undertale/fire",
     ["light"] = true,
@@ -42,7 +42,7 @@ return {
         {
           id = 121,
           name = "hotland_rededge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 180,
           y = 760,
@@ -55,7 +55,7 @@ return {
         {
           id = 122,
           name = "hotland_rededge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 380,
           y = 920,
@@ -68,7 +68,7 @@ return {
         {
           id = 123,
           name = "hotland_rededge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 540,
           y = 1080,
@@ -81,7 +81,7 @@ return {
         {
           id = 124,
           name = "hotland_rededge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 860,
           y = 1080,
@@ -94,7 +94,7 @@ return {
         {
           id = 125,
           name = "hotland_rededge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1020,
           y = 920,
@@ -107,7 +107,7 @@ return {
         {
           id = 126,
           name = "hotland_rededge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1240,
           y = 760,
@@ -120,7 +120,7 @@ return {
         {
           id = 127,
           name = "hotland_rededge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1440,
           y = 760,
@@ -149,7 +149,7 @@ return {
         {
           id = 61,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 0,
           y = 720,
@@ -164,7 +164,7 @@ return {
         {
           id = 62,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 360,
           y = 560,
@@ -179,7 +179,7 @@ return {
         {
           id = 63,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 520,
           y = 560,
@@ -194,7 +194,7 @@ return {
         {
           id = 64,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 680,
           y = 560,
@@ -209,7 +209,7 @@ return {
         {
           id = 65,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 680,
           y = 400,
@@ -224,7 +224,7 @@ return {
         {
           id = 66,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 520,
           y = 400,
@@ -239,7 +239,7 @@ return {
         {
           id = 67,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 520,
           y = 720,
@@ -254,7 +254,7 @@ return {
         {
           id = 68,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 360,
           y = 720,
@@ -269,7 +269,7 @@ return {
         {
           id = 69,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 360,
           y = 880,
@@ -284,7 +284,7 @@ return {
         {
           id = 70,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 520,
           y = 880,
@@ -299,7 +299,7 @@ return {
         {
           id = 71,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 680,
           y = 880,
@@ -314,7 +314,7 @@ return {
         {
           id = 72,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 840,
           y = 880,
@@ -329,7 +329,7 @@ return {
         {
           id = 73,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 840,
           y = 720,
@@ -344,7 +344,7 @@ return {
         {
           id = 74,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 840,
           y = 560,
@@ -359,7 +359,7 @@ return {
         {
           id = 75,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 840,
           y = 400,
@@ -374,7 +374,7 @@ return {
         {
           id = 76,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1000,
           y = 560,
@@ -389,7 +389,7 @@ return {
         {
           id = 77,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1000,
           y = 720,
@@ -404,7 +404,7 @@ return {
         {
           id = 78,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1000,
           y = 880,
@@ -419,7 +419,7 @@ return {
         {
           id = 80,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 520,
           y = 1040,
@@ -434,7 +434,7 @@ return {
         {
           id = 81,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 680,
           y = 1040,
@@ -449,7 +449,7 @@ return {
         {
           id = 82,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 840,
           y = 1040,
@@ -464,7 +464,7 @@ return {
         {
           id = 83,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1160,
           y = 720,
@@ -479,7 +479,7 @@ return {
         {
           id = 84,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 680,
           y = 720,
@@ -494,7 +494,7 @@ return {
         {
           id = 120,
           name = "hotland_bottomedge",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 680,
           y = 240,
@@ -505,6 +505,178 @@ return {
           properties = {
             ["outline"] = true
           }
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 10,
+      name = "objects_cogs",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 128,
+          name = "hotland_cog",
+          type = "",
+          shape = "rectangle",
+          x = 100,
+          y = 400,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 129,
+          name = "hotland_cog",
+          type = "",
+          shape = "rectangle",
+          x = 280,
+          y = 280,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 130,
+          name = "hotland_cog",
+          type = "",
+          shape = "rectangle",
+          x = 440,
+          y = 160,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 131,
+          name = "hotland_cog",
+          type = "",
+          shape = "rectangle",
+          x = 160,
+          y = 200,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 132,
+          name = "hotland_cog",
+          type = "",
+          shape = "rectangle",
+          x = 320,
+          y = 120,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 133,
+          name = "hotland_cog",
+          type = "",
+          shape = "rectangle",
+          x = 1020,
+          y = 160,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 134,
+          name = "hotland_cog",
+          type = "",
+          shape = "rectangle",
+          x = 1160,
+          y = 280,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 135,
+          name = "hotland_cog",
+          type = "",
+          shape = "rectangle",
+          x = 1260,
+          y = 400,
+          width = 40,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 136,
+          name = "hotland_cog",
+          type = "",
+          shape = "rectangle",
+          x = 1300,
+          y = 200,
+          width = 41,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 137,
+          name = "hotland_cog",
+          type = "",
+          shape = "rectangle",
+          x = 1180,
+          y = 80,
+          width = 41,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 138,
+          name = "hotland_cog",
+          type = "",
+          shape = "rectangle",
+          x = 1700,
+          y = 120,
+          width = 41,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 139,
+          name = "hotland_cog",
+          type = "",
+          shape = "rectangle",
+          x = 1740,
+          y = 240,
+          width = 41,
+          height = 40,
+          rotation = 0,
+          visible = true,
+          properties = {}
         }
       }
     },
@@ -631,7 +803,7 @@ return {
         {
           id = 5,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 0,
           y = 560,
@@ -644,7 +816,7 @@ return {
         {
           id = 6,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 0,
           y = 720,
@@ -657,7 +829,7 @@ return {
         {
           id = 7,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1600,
           y = 280,
@@ -670,7 +842,7 @@ return {
         {
           id = 8,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1480,
           y = 240,
@@ -683,7 +855,7 @@ return {
         {
           id = 9,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 640,
           y = 0,
@@ -696,7 +868,7 @@ return {
         {
           id = 11,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 520,
           y = 1040,
@@ -709,7 +881,7 @@ return {
         {
           id = 12,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 480,
           y = 280,
@@ -722,7 +894,7 @@ return {
         {
           id = 13,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 960,
           y = 280,
@@ -735,7 +907,7 @@ return {
         {
           id = 14,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 800,
           y = 0,
@@ -748,7 +920,7 @@ return {
         {
           id = 15,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 520,
           y = 240,
@@ -761,7 +933,7 @@ return {
         {
           id = 16,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 360,
           y = 400,
@@ -774,7 +946,7 @@ return {
         {
           id = 17,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 360,
           y = 880,
@@ -787,7 +959,7 @@ return {
         {
           id = 18,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1120,
           y = 440,
@@ -800,7 +972,7 @@ return {
         {
           id = 19,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 320,
           y = 440,
@@ -813,7 +985,7 @@ return {
         {
           id = 87,
           name = "",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1440,
           y = 280,
@@ -842,7 +1014,7 @@ return {
         {
           id = 20,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 560,
           y = 360,
@@ -858,7 +1030,7 @@ return {
         {
           id = 21,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 440,
           y = 480,
@@ -873,7 +1045,7 @@ return {
         {
           id = 22,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 360,
           y = 640,
@@ -889,7 +1061,7 @@ return {
         {
           id = 23,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 400,
           y = 600,
@@ -905,7 +1077,7 @@ return {
         {
           id = 24,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 280,
           y = 640,
@@ -920,7 +1092,7 @@ return {
         {
           id = 25,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 400,
           y = 760,
@@ -936,7 +1108,7 @@ return {
         {
           id = 26,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 560,
           y = 680,
@@ -952,7 +1124,7 @@ return {
         {
           id = 27,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 520,
           y = 800,
@@ -968,7 +1140,7 @@ return {
         {
           id = 28,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 600,
           y = 800,
@@ -983,7 +1155,7 @@ return {
         {
           id = 29,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 560,
           y = 920,
@@ -999,7 +1171,7 @@ return {
         {
           id = 30,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 680,
           y = 960,
@@ -1015,7 +1187,7 @@ return {
         {
           id = 31,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 720,
           y = 1000,
@@ -1031,7 +1203,7 @@ return {
         {
           id = 32,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 720,
           y = 1080,
@@ -1047,7 +1219,7 @@ return {
         {
           id = 33,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 840,
           y = 960,
@@ -1063,7 +1235,7 @@ return {
         {
           id = 34,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 880,
           y = 840,
@@ -1079,7 +1251,7 @@ return {
         {
           id = 35,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 920,
           y = 800,
@@ -1094,7 +1266,7 @@ return {
         {
           id = 36,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 880,
           y = 760,
@@ -1110,7 +1282,7 @@ return {
         {
           id = 37,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 760,
           y = 800,
@@ -1125,7 +1297,7 @@ return {
         {
           id = 38,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 720,
           y = 760,
@@ -1141,7 +1313,7 @@ return {
         {
           id = 39,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 760,
           y = 640,
@@ -1156,7 +1328,7 @@ return {
         {
           id = 40,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 720,
           y = 520,
@@ -1172,7 +1344,7 @@ return {
         {
           id = 41,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 680,
           y = 480,
@@ -1188,7 +1360,7 @@ return {
         {
           id = 42,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 560,
           y = 440,
@@ -1204,7 +1376,7 @@ return {
         {
           id = 43,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 560,
           y = 520,
@@ -1220,7 +1392,7 @@ return {
         {
           id = 44,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 720,
           y = 360,
@@ -1236,7 +1408,7 @@ return {
         {
           id = 45,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 720,
           y = 280,
@@ -1252,7 +1424,7 @@ return {
         {
           id = 46,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 720,
           y = 200,
@@ -1268,7 +1440,7 @@ return {
         {
           id = 47,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 840,
           y = 320,
@@ -1284,7 +1456,7 @@ return {
         {
           id = 48,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 880,
           y = 440,
@@ -1300,7 +1472,7 @@ return {
         {
           id = 49,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 840,
           y = 480,
@@ -1316,7 +1488,7 @@ return {
         {
           id = 50,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1000,
           y = 480,
@@ -1332,7 +1504,7 @@ return {
         {
           id = 51,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 880,
           y = 600,
@@ -1348,7 +1520,7 @@ return {
         {
           id = 52,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1040,
           y = 600,
@@ -1364,7 +1536,7 @@ return {
         {
           id = 53,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1000,
           y = 640,
@@ -1380,7 +1552,7 @@ return {
         {
           id = 54,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1040,
           y = 680,
@@ -1396,7 +1568,7 @@ return {
         {
           id = 55,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1080,
           y = 640,
@@ -1411,7 +1583,7 @@ return {
         {
           id = 56,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1160,
           y = 640,
@@ -1427,7 +1599,7 @@ return {
         {
           id = 57,
           name = "ventlauncher",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 1040,
           y = 760,
@@ -1459,7 +1631,7 @@ return {
         {
           id = 58,
           name = "transition",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 680,
           y = 1280,
@@ -1472,7 +1644,7 @@ return {
         {
           id = 59,
           name = "transition",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 0,
           y = 600,
@@ -1485,7 +1657,7 @@ return {
         {
           id = 60,
           name = "transition",
-          class = "",
+          type = "",
           shape = "rectangle",
           x = 680,
           y = 0,
@@ -1498,7 +1670,7 @@ return {
         {
           id = 86,
           name = "npc",
-          class = "",
+          type = "",
           shape = "point",
           x = 1280,
           y = 640,
@@ -1530,7 +1702,7 @@ return {
         {
           id = 85,
           name = "startvent",
-          class = "",
+          type = "",
           shape = "point",
           x = 260,
           y = 676,
@@ -1543,7 +1715,7 @@ return {
         {
           id = 88,
           name = "vent_1",
-          class = "",
+          type = "",
           shape = "point",
           x = 420,
           y = 676,
@@ -1556,7 +1728,7 @@ return {
         {
           id = 89,
           name = "vent_4",
-          class = "",
+          type = "",
           shape = "point",
           x = 580,
           y = 676,
@@ -1569,7 +1741,7 @@ return {
         {
           id = 90,
           name = "vent_7b",
-          class = "",
+          type = "",
           shape = "point",
           x = 740,
           y = 676,
@@ -1582,7 +1754,7 @@ return {
         {
           id = 91,
           name = "vent_8b",
-          class = "",
+          type = "",
           shape = "point",
           x = 900,
           y = 676,
@@ -1595,7 +1767,7 @@ return {
         {
           id = 92,
           name = "vent_9",
-          class = "",
+          type = "",
           shape = "point",
           x = 1060,
           y = 676,
@@ -1608,7 +1780,7 @@ return {
         {
           id = 93,
           name = "vent_2",
-          class = "",
+          type = "",
           shape = "point",
           x = 420,
           y = 516,
@@ -1621,7 +1793,7 @@ return {
         {
           id = 94,
           name = "vent_3",
-          class = "",
+          type = "",
           shape = "point",
           x = 580,
           y = 516,
@@ -1634,7 +1806,7 @@ return {
         {
           id = 95,
           name = "vent_10b",
-          class = "",
+          type = "",
           shape = "point",
           x = 740,
           y = 516,
@@ -1647,7 +1819,7 @@ return {
         {
           id = 96,
           name = "vent_9b",
-          class = "",
+          type = "",
           shape = "point",
           x = 900,
           y = 516,
@@ -1660,7 +1832,7 @@ return {
         {
           id = 97,
           name = "vent_10",
-          class = "",
+          type = "",
           shape = "point",
           x = 1060,
           y = 516,
@@ -1673,7 +1845,7 @@ return {
         {
           id = 104,
           name = "vent_4b",
-          class = "",
+          type = "",
           shape = "point",
           x = 580,
           y = 356,
@@ -1686,7 +1858,7 @@ return {
         {
           id = 105,
           name = "vent_11c",
-          class = "",
+          type = "",
           shape = "point",
           x = 740,
           y = 356,
@@ -1699,7 +1871,7 @@ return {
         {
           id = 106,
           name = "vent_10c",
-          class = "",
+          type = "",
           shape = "point",
           x = 900,
           y = 356,
@@ -1712,7 +1884,7 @@ return {
         {
           id = 108,
           name = "endvent_1",
-          class = "",
+          type = "",
           shape = "point",
           x = 740,
           y = 196,
@@ -1725,7 +1897,7 @@ return {
         {
           id = 109,
           name = "spawn",
-          class = "",
+          type = "",
           shape = "point",
           x = 180,
           y = 676,
@@ -1738,7 +1910,7 @@ return {
         {
           id = 110,
           name = "endvent_2",
-          class = "",
+          type = "",
           shape = "point",
           x = 740,
           y = 1156,
@@ -1751,7 +1923,7 @@ return {
         {
           id = 111,
           name = "endvent_3",
-          class = "",
+          type = "",
           shape = "point",
           x = 1220,
           y = 676,
@@ -1764,7 +1936,7 @@ return {
         {
           id = 112,
           name = "vent_6b",
-          class = "",
+          type = "",
           shape = "point",
           x = 420,
           y = 836,
@@ -1777,7 +1949,7 @@ return {
         {
           id = 113,
           name = "vent_5",
-          class = "",
+          type = "",
           shape = "point",
           x = 580,
           y = 836,
@@ -1790,7 +1962,7 @@ return {
         {
           id = 114,
           name = "vent_9c",
-          class = "",
+          type = "",
           shape = "point",
           x = 580,
           y = 996,
@@ -1803,7 +1975,7 @@ return {
         {
           id = 115,
           name = "vent_6",
-          class = "",
+          type = "",
           shape = "point",
           x = 740,
           y = 836,
@@ -1816,7 +1988,7 @@ return {
         {
           id = 116,
           name = "vent_8c",
-          class = "",
+          type = "",
           shape = "point",
           x = 740,
           y = 996,
@@ -1829,7 +2001,7 @@ return {
         {
           id = 117,
           name = "vent_7c",
-          class = "",
+          type = "",
           shape = "point",
           x = 900,
           y = 996,
@@ -1842,7 +2014,7 @@ return {
         {
           id = 118,
           name = "vent_7",
-          class = "",
+          type = "",
           shape = "point",
           x = 900,
           y = 836,
@@ -1855,7 +2027,7 @@ return {
         {
           id = 119,
           name = "vent_8",
-          class = "",
+          type = "",
           shape = "point",
           x = 1060,
           y = 836,
