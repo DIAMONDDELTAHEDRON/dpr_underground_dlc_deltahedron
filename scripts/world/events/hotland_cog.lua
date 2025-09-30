@@ -22,7 +22,6 @@ end
 
 function HotlandCog:draw()
 	if self.cog_scale < 2 then
-		Draw.draw(self.base_small, 0, 0, 0, self.cog_scale*2, self.cog_scale*2, 7, 7)
 		Draw.setColor(COLORS["maroon"])
 		local xpos, ypos
 		for i = 0, 6 do
@@ -31,8 +30,8 @@ function HotlandCog:draw()
 			love.graphics.circle("fill", xpos, ypos, self.cog_scale*4, 4)
 		end
 		Draw.setColor(COLORS["white"])
+		Draw.draw(self.base_small, 0, 0, 0, self.cog_scale*2, self.cog_scale*2, 7, 7)
 	elseif self.cog_scale >= 2 then
-		Draw.draw(self.base_med, 0, 0, 0, self.cog_scale, self.cog_scale, 15, 15)
 		Draw.setColor(COLORS["maroon"])
 		local xpos, ypos
 		for i = 0, 6 do
@@ -41,6 +40,7 @@ function HotlandCog:draw()
 			love.graphics.circle("fill", xpos, ypos, self.cog_scale*4, 8)
 		end
 		Draw.setColor(COLORS["white"])
+		Draw.draw(self.base_med, 0, 0, 0, self.cog_scale, self.cog_scale, 15, 15)
 	end
     super.draw(self)
 end
